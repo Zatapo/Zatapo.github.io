@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Segundo Hito</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="toTop" title="Subir">^</button>
+
+    <script>
+        var mybutton = document.getElementById("toTop");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <nav class="navbar" id="navbar">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#home">Inicio</a></li>
+                <li><a href="#row2">Dies iræ</a></li>
+                <li><a href="#relleno">Sobre mí</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" id="home">
+        <h1 class="titulo">Ismael Penalva - Hito 2</h1>
+        <div class="row" id="row1">
+            <div class="col s12 offset-s4">
+                <div class="card center blue darken-10" id="card1">
+                    <div class="card-content">
+                        <span class="card-title">Gaturro</span>
+                        <div class="card-image">
+                            <img src="img/gato.jpg" alt="un gato" class="responsive-img" id="img-gato">
+                        </div>
+                        <p id="p1">Este gato no tiene que ver con nada, simplemente lo he puesto porque mola mucho y
+                            para rellenar algo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="row2">
+            <h1 class="titulo2"> Dies Iræ</h1>
+            <div class="col s12 m6 16">
+                <div class="card green darken-1 hoverable z-depth-4" id="card2">
+                    <div class="card-content">
+                        <p><i>Dies iræ, dies illa,
+                                Solvet sæclum in favilla,
+                                Teste David cum Sibylla!
+                                <br><br>
+                                Quantus tremor est futurus,
+                                quando iudex est venturus,
+                                cuncta stricte discussurus!
+                                <br><br>
+                                Tuba mirum spargens sonum
+                                per sepulcra regionum,
+                                coget omnes ante thronum.
+                            </i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 16">
+                <div class="card green darken-1 hoverable z-depth-4" id="card2">
+                    <div class="card-content">
+                        <p><i>Mors stupebit et Natura,
+                                cum resurget creatura,
+                                iudicanti responsura.
+                                <br><br>
+                                Liber scriptus proferetur,
+                                in quo totum continetur,
+                                unde Mundus iudicetur
+                                <br><br>
+                                Iudex ergo cum sedebit,
+                                quidquid latet apparebit,
+                                nihil inultum remanebit.
+                            </i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="relleno" id="relleno">
+            <h1 id="sobr-mi">Sobre mí</h1>
+            <p>Mi nombre es Ismael Penalva. Estudio en la Universidad Politécnica de Madrid
+                y estoy en el primer curso de Ingeniería de Software. Estoy interesado en
+                aprender prácticamente cualquier cosa en relación a la programación y al 
+                software. No tengo experiencia previa con css, así que por eso a lo mejor la
+                página se ve extraña (espero que sea responsive). También, cabe mencionar que 
+                no tengo ni idea de diseño, así que los colores de esta y probablemente todas 
+                mis páginas web se vean horrible.
+            </p>
+        </div>
+
+    </div>
+    <div class="footer">
+        <h2>FIN</h2>
+        <a href="https://zatapo.github.io">Link al primer hito (la verdad es que lo hice menos serio)</a>
+    </div>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+body {
+    background-color: #857CA8;
+}
+#navbar {
+    position: fixed;
+    opacity: 0.9;
+    z-index: 999;
+    background-color: #002130;
+    top: 0;
+    left: 0;;
+    padding-bottom:1%;
+}
+#toTop {
+    display: none; 
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    z-index: 99;
+    border: none; 
+    outline: none;
+    background-color: #59BA5F; 
+    cursor: pointer; 
+    padding-right: 0.8%;
+    padding-left: 0.8%;
+    border-radius: 50%; 
+    font-size: 400%;
+    color: white;
+    opacity: 0.8;
+}
+.container {
+    background-color: #01A7C2;
+    position: relative;
+    text-align: center;
+}
+.titulo {
+    margin-top: 5%;
+    background-color: #007090;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#row1 {
+    position: relative;
+    padding-right: auto;
+}
+#card1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 110%;
+    width: 30%;
+    display: block;
+    text-align: center;
+}
+#img-gato{
+    border-radius: 2%;
+}
+.card-title {
+    font-size: 200%;
+}
+#p1 {
+    margin-top: 5%;
+}
+#card2 {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+}
+#row2 {
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    background-color: #007090;
+}
+.relleno {
+    padding: 12%;
+    text-align: left;
+    font-size:150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sobr-mi {
+    color: rgb(25, 2, 68);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer {
+    background-color: #002130;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1%;
+}
