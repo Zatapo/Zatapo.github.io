@@ -36,10 +36,6 @@ body {
     padding-top: 1%;
     padding-bottom: 1%;
 }
-#row1 {
-    position: relative;
-    padding-right: auto;
-}
 #card1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 110%;
